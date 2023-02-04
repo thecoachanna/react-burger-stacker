@@ -1,7 +1,7 @@
 import React from 'react'
 import Ingredient from './Ingredient.jsx'
 
-const IngredientList = (props) => {
+const IngredientList = () => {
     const ingredientObjects = [
         {name: 'Kaiser Bun', color: 'saddlebrown'},
         {name: 'Sesame Bun', color: 'sandybrown'},
@@ -9,7 +9,7 @@ const IngredientList = (props) => {
         {name: 'Lettuce Wrap', color: 'olivedrab'},
         {name: 'Beef Patty', color: '#3F250B'},
         {name: 'Black Bean Patty', color: '#3F250B'},
-        {name: 'Cheese', color: 'yellow'},
+        {name: 'Cheese', color: 'mustard'},
         {name: 'Lettuce', color: 'lawngreen'},
         {name: 'Tomato', color: 'tomato'},
         {name: 'Bacon', color: 'maroon'},
@@ -22,7 +22,6 @@ const IngredientList = (props) => {
           key={`yum ${index}`}
             name={ingredientObject.name}
             color={ingredientObject.color}
-            handleIngredientClick={props.handleIngredientClick}
           />
         ) 
       })

@@ -1,7 +1,7 @@
 import React from 'react'
 import Ingredient from './Ingredient.jsx'
 
-const BurgerStack = (props) => {
+const BurgerStack = () => {
     const ingredients = props.clickedIngredients.map((ingredient, index) => {
         return (
           <Ingredient

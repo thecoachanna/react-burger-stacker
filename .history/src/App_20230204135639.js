@@ -14,7 +14,7 @@ function App() {
 
   const handleIngredientClick = (e) => {
     // console.log(e.target.innerText)
-    setClickedIngredients([{ name: e.target.innerText }, ...clickedIngredients])
+    setClickedIngredients([...clickedIngredients, { name: e.target.innerText }])
   }
 
 

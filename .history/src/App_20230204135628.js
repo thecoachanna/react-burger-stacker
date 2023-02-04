@@ -14,14 +14,14 @@ function App() {
 
   const handleIngredientClick = (e) => {
     // console.log(e.target.innerText)
-    setClickedIngredients([{ name: e.target.innerText }, ...clickedIngredients])
+    setClickedIngredients([...clickedIngredients, { name: e.target.innerText }])
   }
 
 
   return (
     <div className="App burger-stacker">
       <IngredientList handleIngredientClick={handleIngredientClick} />
-      <BurgerStack clickedIngredients={clickedIngredients} />
+      <BurgerStack clickedIngredients={clickedIngredients/>
     </div>
   );
 }

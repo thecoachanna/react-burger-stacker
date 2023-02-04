@@ -9,7 +9,7 @@ const IngredientList = (props) => {
         {name: 'Lettuce Wrap', color: 'olivedrab'},
         {name: 'Beef Patty', color: '#3F250B'},
         {name: 'Black Bean Patty', color: '#3F250B'},
-        {name: 'Cheese', color: 'yellow'},
+        {name: 'Cheese', color: 'mustard'},
         {name: 'Lettuce', color: 'lawngreen'},
         {name: 'Tomato', color: 'tomato'},
         {name: 'Bacon', color: 'maroon'},
